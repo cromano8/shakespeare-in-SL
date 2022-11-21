@@ -9,6 +9,7 @@ from io import StringIO
 import glob, nltk, os, re
 from nltk.corpus import stopwords
 from pathlib import Path
+nltk.download('punkt')
 
 st.markdown('''
             # Analyzing Shakespeare Texts
